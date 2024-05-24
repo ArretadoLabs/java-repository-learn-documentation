@@ -23,7 +23,7 @@ public class exercise11 {
             System.out.println("Number one is smaller");
         }
 
-        //Closing class Scanner
+        // Closing class Scanner
         sc.close();
     }
 }
