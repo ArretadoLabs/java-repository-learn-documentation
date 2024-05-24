@@ -27,5 +27,8 @@ public class exercise03 {
         // Printing value final
         System.out.println("Result final = " + numberOne / numberTwo);
 
+        // Close class Scanner
+        sc.close();
+
     }
 }
