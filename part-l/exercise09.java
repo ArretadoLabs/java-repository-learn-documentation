@@ -20,7 +20,7 @@ public class exercise09 {
         System.out.println("The area of rectangle is: " + (width * height));
         System.out.println("The perimeter of rectangle is: " + (2 * (width + height)));
 
-        //Closing class Scanner
+        // Closing class Scanner
         sc.close();
 
     }
