@@ -4,6 +4,10 @@ import javax.management.RuntimeErrorException;
 
 public class exercise17 {
     public static void main(String[] args) {
+
+        /**
+         * Display password in format invisible input user
+         */
         Console cons;
 
         if ((cons = System.console()) != null) {
