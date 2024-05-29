@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class exercise20 {
     public static void main(String[] args) {
+        /**
+         * Value logical if third number is equal a sum of two numbers
+         */
+
         Scanner sc = new Scanner(System.in);
 
         // Variables
