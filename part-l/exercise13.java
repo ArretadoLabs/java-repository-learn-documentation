@@ -27,5 +27,8 @@ public class exercise13 {
             System.out.println("Two numbers is equal " + numberOne + " = " + numberTwo);
         }
 
+        // closing class Scanner
+        sc.close();
+
     }
 }
