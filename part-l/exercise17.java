@@ -18,7 +18,6 @@ public class exercise17 {
 
                 System.out.println("Your password is -> " + new String(pass_word));
             } catch (Exception e) {
-                // TODO: handle exception
                 if (pass_word != null) {
                     java.util.Arrays.fill(pass_word, ' ');
                 }
