@@ -27,7 +27,7 @@ public class Exercise4 {
             System.out.println(numberYear);
         }
 
-        //Closing class Scanner
+        // Closing class Scanner
         sc.close();
     }
 }
