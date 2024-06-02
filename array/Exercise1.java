@@ -17,9 +17,20 @@ public class Exercise1 {
             array_int[i] = sc.nextInt();
         }
 
-        //Printing values in array
+        // Printing values in array
         for (int i : array_int) {
-            System.out.println(i);
+            System.out.println("\n" + i);
+        }
+
+        // Creating structure for inserting data of type String
+        for (int i = 0; i < array_string.length; i++) {
+            System.out.println("What String: ");
+            array_string[i] = sc.nextLine();
+        }
+
+        // Printing values in array String
+        for (String i : array_string) {
+            System.out.println("\n" + i );
         }
 
         // Closing class Scanner
