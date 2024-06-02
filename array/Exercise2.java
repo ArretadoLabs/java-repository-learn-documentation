@@ -22,6 +22,14 @@ public class Exercise2 {
         Arrays.sort(array_number);
         System.out.println(Arrays.toString(array_number));
 
+        for (int i = 0; i < array_string.length; i++) {
+            System.out.println("String: ");
+            array_string[i] = sc.nextLine();
+        }
+
+        Arrays.toString(array_string);
+        System.out.println(Arrays.toString(array_string));
+
         // Closing class Scanner
         sc.close();
 
