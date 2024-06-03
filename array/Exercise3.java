@@ -4,24 +4,22 @@ import java.util.Scanner;
 
 public class Exercise3 {
     public static void main(String[] args) {
-        // Importing class Scanner fot data user input
-        Scanner sc = new Scanner(System.in);
 
-        // variables
+        // Creating vector and variables
+        int[] numbers = new int[5];
         int sum = 0;
 
-        // Creating vector of type int
-        int[] numbers = new int[10];
-
-        for (int i = 0; i <= numbers.length; i++) {
-            System.out.println("number: ");
-            numbers[i] = sc.nextInt();
+        // Structure logical for input and calculate value
+        for (int i = 0; i < 5; i++) {
+            Scanner input = new Scanner(System.in);
+            System.out.printf("Number of vector[%d] :", i);
+            numbers[i] = input.nextInt();
         }
 
         for (int i : numbers) {
-            sum += numbers[i];
+            sum += i;
         }
+        System.out.println("Sum of values in vector is: " + sum);
 
-        System.out.println("The sum of numbers is: " + sum);
     }
 }
