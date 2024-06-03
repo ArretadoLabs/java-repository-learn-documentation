@@ -23,7 +23,7 @@ public class Exercise3 {
         }
         System.out.println("Sum of values in vector is: " + sum);
 
-        //Closing class Scanner
+        // Closing class Scanner
         input.close();
 
     }
