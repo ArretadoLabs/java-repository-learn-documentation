@@ -22,12 +22,16 @@ class AreaOfRectangle {
         Scanner input = new Scanner(System.in);
         System.out.println("What value of base rectangle: ");
         base = input.nextFloat();
+
+        input.close();
     }
 
     public void readHightRectangle() {
         Scanner input = new Scanner(System.in);
         System.out.println("What value of hight rectangle: ");
         hight = input.nextFloat();
+
+        input.close();
     }
 
     public float getAreaRectangle() {
