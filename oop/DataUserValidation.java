@@ -4,11 +4,20 @@ import java.util.Scanner;
 
 public class DataUserValidation {
     public static void main(String[] args) {
+        PeopleData peopleData = new PeopleData();
+
+        peopleData.readName();
+        peopleData.readCpf();
+        peopleData.readAge();
+        peopleData.readNumberPhone();
+
+        // Printing all values
+        peopleData.displayData();
 
     }
 }
 
-class peopleData {
+class PeopleData {
     private String name;
     private String cpf;
     private int age;
@@ -28,7 +37,7 @@ class peopleData {
 
     public void readCpf() {
         Scanner input = new Scanner(System.in);
-        System.out.println("Your name is: ");
+        System.out.println("Your CPF is: ");
         cpf = input.nextLine();
         if (cpf.length() != 11) {
             System.out.println("Data CPF is invalid, try again");
