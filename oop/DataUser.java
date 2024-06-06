@@ -1,5 +1,6 @@
 package oop;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class DataUser {
@@ -16,6 +17,7 @@ public class DataUser {
 
 // Class People
 class People {
+
     // Attributes
     private String name;
     private String cpf;
@@ -27,15 +29,12 @@ class People {
         System.out.println("What your name: ");
         name = input.nextLine();
 
-        // Closing class Scanner in scope local
-        input.close();
     }
 
     public void ReadCPF() {
         Scanner input = new Scanner(System.in);
         System.out.println("What your CPF: ");
-        String cpf = input.nextLine();
-        input.close();
+        cpf = input.nextLine();
 
     }
 
@@ -44,8 +43,6 @@ class People {
         System.out.println("What you age: ");
         age = input.nextInt();
 
-        // Closing class Scanner in scope local
-        input.close();
     }
 
     public void DisplayData() {
